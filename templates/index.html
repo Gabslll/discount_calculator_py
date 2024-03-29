@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de desconto</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Calculo de desconto</h1>
+        <form action="/calcular_desconto" id="container" method="post">
+            <div class="product">
+                <label for="produto1">Valor do seu produto</label>
+                <input type="number" name="produto1" required placeholder="Digite o valor do seu produto">
+            </div>
+            <button type="submit" id="btn_product">Calculo da compra</button>
+        </form>
+    </div>
+
+
+    <script src="/compra.py"></script>
+</body>
+
+</html>
